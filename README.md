@@ -26,5 +26,14 @@ Git sabe que existen pero no les esta dando seguimiento, no sabe si esta cambian
 * unmodified: (Archivos que git ya esta siguiendo y con respecto al WD, no fueron modificados)
 * modified: Archivos que se encuentran en el repositorio (Estan siendo seguidos por git) pero 
 difieren con lo que se encuentra actualmente en el WD  
-* staged: Archivos que estan en el area temporal/intermedia
+* staged (changes to be committed) : Archivos que estan en el area temporal/intermedia
 
+## Agrego al area de confirmacion el archivo/archivos
+
+```sh
+git add <nombre-archivo>
+si tengo varios archivos:
+git add <nombre-archivo> <nombre-archivo> <nombre-archivo>
+git add. #Agrega todos los archivos.
+lo ideal seria ir agregando archivo por archivo, de a poco   
+```
