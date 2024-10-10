@@ -42,3 +42,9 @@ lo ideal seria ir agregando archivo por archivo, de a poco
 ```sh
 git commit -m "mensaje descriptivo de lo que tiene el commit"
 ```
+
+## Modificar o corregir el mensaje del commit 
+
+```sh
+git commit --amend -m "comentario editado"
+```
