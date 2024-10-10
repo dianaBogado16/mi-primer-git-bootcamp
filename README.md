@@ -37,3 +37,8 @@ git add <nombre-archivo> <nombre-archivo> <nombre-archivo>
 git add. #Agrega todos los archivos.
 lo ideal seria ir agregando archivo por archivo, de a poco   
 ```
+# Persisitmos los cambios agregados al area de confirmacion en un commit
+
+```sh
+git commit -m "mensaje descriptivo de lo que tiene el commit"
+```
