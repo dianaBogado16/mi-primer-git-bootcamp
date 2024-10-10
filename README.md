@@ -48,3 +48,8 @@ git commit -m "mensaje descriptivo de lo que tiene el commit"
 ```sh
 git commit --amend -m "comentario editado"
 ```
+
+## Como ver el timelines de commits
+```sh
+git log --oneline
+```
